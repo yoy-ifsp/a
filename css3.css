@@ -1,0 +1,182 @@
+body{
+background-color:#272643;
+color: #ffffff;
+font-family: 'Quicksand', sans-serif;
+
+}
+/*pegar cores: https://colors.muz.li/*/
+/*https://colors.muz.li/palette/272643/ffffff/e3f6f5/bae8e8/2c698d*/
+/*https://colors.muz.li/palette/008000/005a00/bfffbf/80ff80/ffffff*/
+
+img{
+	max-width: 100%;
+}
+
+.a{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.p{
+	background-color: white;
+    box-shadow: 10px 10px 4px 1px rgba(0,0,0, 0.39);
+    max-width: 18vw;
+}
+
+.p figcaption{
+	text-align: center;
+	font-style: italic;
+	padding: 1vw 2vw;
+	color: #272643;
+	font-weight: bold;
+}
+.p:hover{ 
+    box-shadow: 10px 10px 7px -1px #272643;
+    cursor: pointer;}
+
+section{
+	margin-bottom: 3em;
+}
+
+.txtc, .txtcl{
+	font-size: 125%;
+}
+.tc{
+	font-size: 225%;
+	font-style: italic;
+	font-weight: 900;
+	background-image: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
+	background-clip: text;
+	-webkit-background-clip: text; 
+	-webkit-text-fill-color: transparent;
+	color: black;
+	display: flex;
+	justify-content: center;
+	border-radius: 1vh;
+	line-height: 7vh;
+}
+.tc:hover{
+	cursor:pointer ;
+}
+nav{
+
+	display: flex;
+	justify-content: space-around;
+    margin: 5vh;
+    padding: 5vh;
+    font-size: 3vh;
+    background-image: linear-gradient(to right, rebeccapurple, steelblue, turquoise);
+    border-radius: 1vh;
+}
+
+a{
+	color: #272643;
+}
+a:hover{
+	cursor: pointer;
+  color: white;
+}
+/*.gradient {
+  / Primeiro passo: definir um degradê como fundo /
+  background-image: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
+  
+  / Segundo passo: apagar do fundo tudo que não estiver imediatamente atrás de texto/
+  background-clip: text;
+  -webkit-background-clip: text; / Alguns navegadores precisam do prefixo /
+
+  / Terceiro passo: apagar o texto, deixando apenas o fundo atrás dele/
+  -webkit-text-fill-color: transparent;
+
+  / Cor que contraste com o degradê, caso o navegador não suporte `background-clip: text`/
+  color: black;
+}*/
+footer{
+	background-image: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
+	background-clip: text;
+	-webkit-background-clip: text; 
+	-webkit-text-fill-color: transparent;
+	color: black;
+	font-size: 2.5vh;
+	font-weight: bold;
+}
+
+.insta{
+	max-width: 3vh;
+	max-height: 3vh;
+	display: inline;
+}
+.txtcl{
+	background-image: linear-gradient(to right, rebeccapurple, steelblue, turquoise);
+	margin: 10vh 40vh 10vh 40vh;
+	padding: 2.25vh;
+	border-radius: 1vh;
+}
+.redes{
+	background-image: linear-gradient(to right, rebeccapurple, steelblue, turquoise);
+    color: #ffffff;
+    display: flex;
+	justify-content: space-around;
+    margin: 10vh 65vh 10vh 65vh;
+    padding: 1.25vh;
+    font-size: 3vh;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    border-radius: 1vh;
+}
+.redes a{
+	color: white;
+}
+.sub{    
+  background-image: linear-gradient(to right, turquoise, steelblue, rebeccapurple );
+  font-size: 3vh;
+	font-style: italic;
+	margin: 7.5vh 40vh 0vh 40vh;
+	padding: 4vh;
+	color:#272643 ;
+	border-radius: 1vh;
+	font-weight: 900;
+	
+}
+
+
+.cliqueaqui{
+	width: 27.5vh;
+	height: 27.5vh;
+	border-radius: 1.25vh;
+
+}
+.l{
+	margin: 3.25vh;
+}
+
+.imagem {
+  border: 2px solid white;
+  border-radius: 4px;
+  width: 200px;
+  max-width: 25vw;
+  max-height: 25vw%;
+  padding: 0.5vh;
+  display: flex;
+  flex-direction: row;
+  margin: 1vh;
+
+}
+
+.imagem:hover {
+  box-shadow: 0 0 5px 1.25px #272643;
+
+}
+.livros{
+	display: flex;
+  flex-direction: row;
+  margin-right: 2vh;
+  margin-left: 2vh;
+}
+.series{
+	display: flex;
+  flex-direction: row;
+  margin-right: 2vh;
+  margin-left: 2vh;
+}
